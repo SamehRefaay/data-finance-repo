@@ -17,19 +17,43 @@ const Navbar = () => {
 						: 'pt-20 px-4 pb-4 fixed left-0 top-0 left-[-100%] h-screen md:pt-4 md:h-24 md:static md:flex md:flex-row ease-in-out duration-500 bg-primary '
 				}
 			>
-				<li className={leftNav ? 'p-4 border-b border-gray-600' : 'p-4'}>
+				<li
+					className={
+						leftNav
+							? 'p-4 hover:text-secondary border-b border-gray-600'
+							: 'p-4 hover:text-secondary'
+					}
+				>
 					Home
 				</li>
-				<li className={leftNav ? 'p-4 border-b border-gray-600' : 'p-4'}>
+				<li
+					className={
+						leftNav
+							? 'p-4 hover:text-secondary border-b border-gray-600'
+							: 'p-4 hover:text-secondary'
+					}
+				>
 					Company
 				</li>
-				<li className={leftNav ? 'p-4 border-b border-gray-600' : 'p-4'}>
+				<li
+					className={
+						leftNav
+							? 'p-4 hover:text-secondary border-b border-gray-600'
+							: 'p-4 hover:text-secondary'
+					}
+				>
 					Resources
 				</li>
-				<li className={leftNav ? 'p-4 border-b border-gray-600' : 'p-4'}>
+				<li
+					className={
+						leftNav
+							? 'p-4 hover:text-secondary border-b border-gray-600'
+							: 'p-4 hover:text-secondary'
+					}
+				>
 					About
 				</li>
-				<li className="p-4">Contact</li>
+				<li className="p-4 hover:text-secondary">Contact</li>
 			</ul>
 			{leftNav ? (
 				<AiOutlineClose
