@@ -14,7 +14,7 @@ const Navbar = () => {
 				className={
 					leftNav
 						? 'pt-20 px-4 pb-4 fixed left-0 top-0 w-[60%] h-screen uppercase border-r border-gray-900 ease-in-out duration-500 bg-primary' //md:p-6 md:flex md:flex-row md:right-0
-						: 'pt-20 px-4 pb-4 fixed left-0 top-0 left-[-100%] h-screen md:pt-4 md:h-24 md:static md:flex md:flex-row ease-in-out duration-500 bg-primary '
+						: 'pt-20 px-4 pb-4 fixed top-0 left-[-100%] h-screen md:pt-4 md:h-24 md:static md:flex md:flex-row ease-in-out duration-500 bg-primary '
 				}
 			>
 				<li
