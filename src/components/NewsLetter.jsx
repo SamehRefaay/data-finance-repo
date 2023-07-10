@@ -5,7 +5,7 @@ const NewsLetter = () => {
 		<div className="text-white py-16 px-4">
 			<div className=" max-w-[1240px] mx-auto grid md:grid-cols-3">
 				<div className="md:col-span-2">
-					<h2 className="text-2xl sm:text-3xl md:text-4xl">
+					<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
 						Want tips & tricks to optimize your flow?
 					</h2>
 					<p className="my-3">Sign up to our newsletter and stay up to date.</p>
